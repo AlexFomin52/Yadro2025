@@ -14,7 +14,7 @@ void print_complex_vector(const string& title, const vector<complex<double>>& v)
 }
 
 int main() {
-    // Тест для N=2
+    // N=2
     {
         vector<complex<double>> signal = { 0.7649 -0.408i , 0.76059 + 0.96364i };
         print_complex_vector("Input signal (N=2)", signal);
@@ -26,7 +26,7 @@ int main() {
         print_complex_vector("Reconstructed signal (N=2)", reconstructed);
     }
 
-    // Тест для N=3
+    // N=3
     {
         vector<complex<double>> signal = { -0.26694 + 0.62342i, 0.71211 -0.49794i, 0.28344 -0.80364i };
         print_complex_vector("Input signal (N=3)", signal);
@@ -38,7 +38,7 @@ int main() {
         print_complex_vector("Reconstructed signal (N=3)", reconstructed);
     }
 
-    // Тест для N=5
+    // N=5
     {
         vector<complex<double>> signal = { 0.68292 -0.28014i, -0.50664 -0.49681i, 0.25191 -0.17211i, -0.60002 + 0.77555i, -0.21111 + 0.8i };
         print_complex_vector("Input signal (N=5)", signal);
